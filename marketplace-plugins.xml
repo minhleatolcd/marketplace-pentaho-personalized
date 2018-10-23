@@ -1,0 +1,1072 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<market xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/pentaho/marketplace-metadata/master/marketplace.xsd">
+
+  <!-- ***************** -->
+  <!-- BA Server Plugins -->
+  <!-- ***************** -->
+  <!--
+  <market_entry>
+    <id>marketplace</id>
+    <type>Platform</type>
+    <img>http://www.webdetails.pt/ficheiros/mk.png</img>
+    <small_img>http://www.webdetails.pt/ficheiros/mk_plugin.png</small_img>
+    <name>Pentaho Marketplace</name>
+    <documentation_url>http://wiki.pentaho.com/display/PMOPEN/Pentaho+BI+Server+Marketplace+Plugin</documentation_url>
+    <description>Provide Pentaho, Partners, and Community Developers a marketplace for plugins within the BI Server product.</description>
+    <author>Pentaho</author>
+    <author_url>http://pentaho.com</author_url>
+    <author_logo>http://www.pentaho.com/images/2011/logo.png</author_logo>
+    <license>MPL 2.0</license>
+    <dependencies>CDF, CDA, CDE</dependencies>
+    <versions>
+      <version>
+        <branch>TRUNK</branch>
+        <version>TRUNK-SNAPSHOT</version>
+        <name>Trunk</name>
+        <package_url>http://ci.analytical-labs.com/job/Webdetails-Marketplace/lastSuccessfulBuild/artifact/dist/marketplace-plugin-TRUNK-SNAPSHOT.zip</package_url>
+        <description>Trunk Snapshot. Install at your own risk...</description>
+        <build_id>4</build_id>
+      </version>
+    </versions>
+    <screenshots>
+      <screenshot></screenshot>
+    </screenshots>
+  </market_entry>
+  -->
+
+  <market_entry>
+    <id>pentaho-marketplace</id>
+    <type>Platform</type>
+    <img>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</img>
+    <small_img>http://www.webdetails.pt/ficheiros/mk_plugin.png</small_img>
+    <name>Pentaho Marketplace </name>
+    <category>
+      <name>Admin</name>
+      <parent>
+        <name>Apps</name>
+      </parent>
+    </category>
+    <documentation_url>http://wiki.pentaho.com/display/PMOPEN/Pentaho+BI+Server+Marketplace+Plugin</documentation_url>
+    <description>
+      Pentaho Marketplace allows users to explore and test the plugins
+      that are most relevant to them. This means high quality and useful
+      plugins that users can use to get the most out of their business.
+    </description>
+    <author>Pentaho</author>
+    <author_url>http://pentaho.com</author_url>
+    <author_logo>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</author_logo>
+    <license>LGPL v2</license>
+    <dependencies/>
+    <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>6.0.0.0-353</version>
+        <name>Latest snapshot build</name>
+        <package_url>
+          https://public.nexus.pentaho.org/service/local/repositories/public-6.0-release/content/org/pentaho/pentaho-marketplace/6.0.0.0-353/pentaho-marketplace-6.0.0.0-353.kar
+        </package_url>
+        <description>Build for Pentaho 6.0</description>
+        <build_id/>
+        <min_parent_version>6.0.0</min_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <screenshots>
+    </screenshots>
+  </market_entry>
+
+  <market_entry>
+    <id>marketplace</id>
+    <type>Platform</type>
+    <img>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</img>
+    <small_img>http://www.webdetails.pt/ficheiros/mk_plugin.png</small_img>
+    <name>Pentaho Marketplace</name>
+    <category>
+      <name>Admin</name>
+      <parent>
+        <name>Apps</name>
+      </parent>
+    </category>
+    <documentation_url>http://wiki.pentaho.com/display/PMOPEN/Pentaho+BI+Server+Marketplace+Plugin</documentation_url>
+    <description>
+      Pentaho Marketplace allows users to explore and test the plugins
+      that are most relevant to them. This means high quality and useful
+      plugins that users can use to get the most out of their business.
+    </description>
+    <author>Pentaho</author>
+    <author_url>http://pentaho.com</author_url>
+    <author_logo>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</author_logo>
+    <license>LGPL v2</license>
+    <dependencies/>
+    <versions>
+      <version>
+        <branch>5.4</branch>
+        <version>5.4.0.4</version>
+        <build_id/>
+        <name>Build for Pentaho 5.4</name>
+        <package_url>
+          http://ctools.pentaho.com/files/marketplace/marketplace-5.4.0.1-130.zip
+        </package_url>
+        <description>Build for Pentaho 5.4</description>
+        <min_parent_version>5.4</min_parent_version>
+        <max_parent_version>5.4.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <screenshots>
+      <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/marketplace/marketplace-01.jpg</screenshot>
+      <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/marketplace/marketplace-02.jpg</screenshot>
+      <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/marketplace/marketplace-03.jpg</screenshot>
+    </screenshots>
+  </market_entry>
+
+
+  <market_entry>
+    <id>pentaho-cdf</id>
+    <type>Platform</type>
+    <img>http://www.webdetails.pt/ficheiros/cdf.png</img>
+    <small_img>http://www.webdetails.pt/ficheiros/cdf_plugin.png</small_img>
+    <name>Community Dashboards Framework</name>
+    <category>
+      <name>Dashboards</name>
+      <parent>
+        <name>Apps</name>
+      </parent>
+    </category>
+    <documentation_url>http://cdf.webdetails.org</documentation_url>
+    <description>
+      Community Dashboard Framework (CDF) is the engine that allows you to
+      create friendly, powerful and fully featured Dashboards on top of
+      the Pentaho Business Intelligence server.
+    </description>
+    <author>Webdetails</author>
+    <author_url>http://webdetails.pt</author_url>
+    <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
+    <license>MPL 2.0</license>
+    <dependencies/>
+    <versions>
+
+
+      <version>
+        <branch>6.0.0.0</branch>
+        <version>6.0.0.0-353</version>
+        <name>6.0</name>
+        <package_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf/6.0.0.0-353/pentaho-cdf-6.0.0.0-353.zip
+        </package_url>
+        <samples_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/6.0.0.0-353/pentaho-cdf-samples-6.0.0.0-353.zip
+        </samples_url>
+        <description>6.0 Platform Release</description>
+        <build_id/>
+        <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>6.0.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+
+      <version>
+        <branch>6.1.0.1</branch>
+        <version>6.1.0.1-196</version>
+        <name>6.1</name>
+        <package_url>
+            https://public.nexus.pentaho.org/content/groups/omni/pentaho/pentaho-cdf/6.1.0.1-196/pentaho-cdf-6.1.0.1-196.zip
+        </package_url>
+        <samples_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/6.1.0.1-196/pentaho-cdf-samples-6.1.0.1-196.zip
+        </samples_url>
+        <description>6.1 Platform Release</description>
+        <build_id/>
+        <min_parent_version>6.1</min_parent_version>
+        <max_parent_version>6.1.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+
+   <version>
+        <branch>7.0.0.0</branch>
+        <version>7.0.0.0-25</version>
+        <name>7.0</name>
+        <package_url>
+            https://public.nexus.pentaho.org/content/groups/omni/pentaho/pentaho-cdf/7.0.0.0-25/pentaho-cdf-7.0.0.0-25.zip
+        </package_url>
+        <samples_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/7.0.0.0-25/pentaho-cdf-samples-7.0.0.0-25.zip
+        </samples_url>
+        <description>7.0 Platform Release</description>
+        <build_id/>
+        <min_parent_version>7.0</min_parent_version>
+        <max_parent_version>7.0.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+
+   <version>
+        <branch>7.1.0.0</branch>
+        <version>7.1.0.0-12</version>
+        <name>7.1</name>
+        <package_url>
+            https://public.nexus.pentaho.org/content/groups/omni/pentaho/pentaho-cdf/7.1.0.0-12/pentaho-cdf-7.1.0.0-12.zip
+        </package_url>
+        <samples_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/7.1.0.0-12/pentaho-cdf-samples-7.1.0.0-12.zip
+        </samples_url>
+        <description>7.1 Platform Release</description>
+        <build_id/>
+        <min_parent_version>7.1</min_parent_version>
+        <max_parent_version>7.1.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+
+
+   <version>
+        <branch>8.0.0.0</branch>
+        <version>8.0.0.0-28</version>
+        <name>8.0</name>
+        <package_url>
+            https://public.nexus.pentaho.org/content/groups/omni/pentaho/pentaho-cdf/8.0.0.0-28/pentaho-cdf-8.0.0.0-28.zip
+        </package_url>
+        <samples_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/8.0.0.0-28/pentaho-cdf-samples-8.0.0.0-28.zip
+        </samples_url>
+        <description>8.0 Platform Release</description>
+        <build_id/>
+        <min_parent_version>8.0</min_parent_version>
+        <max_parent_version>8.0.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+ <version>
+        <branch>8.1.0.0</branch>
+        <version>8.1.0.0-365</version>
+        <name>8.1</name>
+        <package_url>
+            https://public.nexus.pentaho.org/content/groups/omni/pentaho/pentaho-cdf/8.1.0.0-365/pentaho-cdf-8.1.0.0-365.zip
+        </package_url>
+        <samples_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/8.1.0.0-365/pentaho-cdf-samples-8.1.0.0-365.zip
+        </samples_url>
+        <description>8.1 Platform Release</description>
+        <build_id/>
+        <min_parent_version>8.1</min_parent_version>
+        <max_parent_version>8.1.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+
+
+      <version>
+        <branch>STABLE</branch>
+        <version>15.10.26</version>
+        <name>Stable</name>
+        <package_url>http://ctools.pentaho.com/files/cdf/15.10.26/4.x/pentaho-cdf-15.10.26.zip</package_url>
+        <samples_url>http://ctools.pentaho.com/files/cdf/15.10.26/4.x/pentaho-cdf-samples-15.10.26.zip</samples_url>
+        <description>Stable Release</description>
+        <max_parent_version>4.9</max_parent_version>
+        <min_parent_version>1.0</min_parent_version>
+        <build_id/>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+
+      <version>
+        <branch>STABLE</branch>
+        <version>14.12.10.1</version>
+        <name>Stable</name>
+        <package_url>http://ctools.pentaho.com/files/cdf/14.12.10.1/5.x/pentaho-cdf-14.12.10.1.zip</package_url>
+        <samples_url>http://ctools.pentaho.com/files/cdf/14.12.10.1/5.x/pentaho-cdf-samples-14.12.10.1.zip</samples_url>
+        <description>Stable Release</description>
+        <min_parent_version>5.0</min_parent_version>
+        <max_parent_version>5.0.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>3</phase>
+        </development_stage>
+        <build_id/>
+      </version>
+
+      <version>
+        <branch>STABLE</branch>
+        <version>16.08.18</version>
+        <name>Stable</name>
+        <package_url>http://ctools.pentaho.com/files/cdf/16.08.18/5.x/pentaho-cdf-16.08.18.zip</package_url>
+        <samples_url>http://ctools.pentaho.com/files/cdf/16.08.18/5.x/pentaho-cdf-samples-16.08.18.zip</samples_url>
+        <description>Stable Release</description>
+        <min_parent_version>5.1</min_parent_version>
+        <max_parent_version>5.4.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>3</phase>
+        </development_stage>
+        <build_id/>
+      </version>
+
+      <version>
+        <branch>STABLE</branch>
+        <version>6.1-16.08.18</version>
+        <name>Stable</name>
+        <package_url>http://ctools.pentaho.com/files/cdf/16.08.18/6.x/pentaho-cdf-6.1-16.08.18.zip</package_url>
+        <samples_url>http://ctools.pentaho.com/files/cdf/16.08.18/6.x/pentaho-cdf-samples-6.1-16.08.18.zip</samples_url>
+        <description>Stable Release</description>
+        <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>6.1.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>3</phase>
+        </development_stage>
+        <build_id/>
+      </version>
+
+
+
+      <version>
+        <branch>TRUNK</branch>
+        <version>7.1-SNAPSHOT</version>
+        <name>TRUNK</name>
+        <package_url>
+          https://public.nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&amp;g=pentaho&amp;a=pentaho-cdf&amp;v=7.1-SNAPSHOT&amp;p=zip
+        </package_url>
+        <samples_url>
+          https://public.nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&amp;g=pentaho&amp;a=pentaho-cdf-samples&amp;v=7.1-SNAPSHOT&amp;p=zip
+        </samples_url>
+        <description>
+          Build for Pentaho 6/7
+        </description>
+        <build_id>31</build_id>
+        <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>7.0.9</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <screenshots>
+      <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cdf/cdf-1.png</screenshot>
+      <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cdf/cdf-2.png</screenshot>
+    </screenshots>
+  </market_entry>
+
+  <market_entry>
+    <id>cda</id>
+    <type>Platform</type>
+    <img>http://www.webdetails.pt/ficheiros/cda.png</img>
+    <small_img>http://www.webdetails.pt/ficheiros/cda_plugin.png</small_img>
+    <name>Community Data Access</name>
+    <category>
+      <name>Data</name>
+      <parent>
+        <name>Apps</name>
+      </parent>
+    </category>
+    <documentation_url>http://cda.webdetails.org</documentation_url>
+    <description>
+      Community Data Access (CDA) is a Pentaho plugin designed for
+      accessing data with great flexibility. Born for overcoming some
+      cons of the older implementation, CDA allows you to access any of
+      the various Pentaho data sources.
+    </description>
+    <author>Webdetails</author>
+    <author_url>http://webdetails.pt</author_url>
+    <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
+    <dependencies>CDF</dependencies>
+    <license>MPL 2.0</license>
+    <versions>
+
+
+
+
+      <version>
+        <branch>6.0.0.0</branch>
+        <version>6.0.0.0-353</version>
+        <name>6.0</name>
+        <package_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda/6.0.0.0-353/cda-6.0.0.0-353.zip
+        </package_url>
+        <samples_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/6.0.0.0-353/cda-samples-6.0.0.0-353.zip
+        </samples_url>
+        <description>6.0 Platform Release</description>
+        <build_id/>
+        <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>6.0.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+      <version>
+        <branch>6.1.0.1</branch>
+        <version>6.1.0.1-196</version>
+        <name>6.1</name>
+        <package_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda/6.1.0.1-196/cda-6.1.0.1-196.zip
+        </package_url>
+        <samples_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/6.1.0.1-196/cda-samples-6.1.0.1-196.zip
+        </samples_url>
+        <description>6.1 Platform Release</description>
+        <build_id/>
+        <min_parent_version>6.1</min_parent_version>
+        <max_parent_version>6.1.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+
+      <version>
+        <branch>7.0.0.0</branch>
+        <version>7.0.0.0-25</version>
+        <name>7.0</name>
+        <package_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda/7.0.0.0-25/cda-7.0.0.0-25.zip
+        </package_url>
+        <samples_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/7.0.0.0-25/cda-samples-7.0.0.0-25.zip
+        </samples_url>
+        <description>7.0 Platform Release</description>
+        <build_id/>
+        <min_parent_version>7.0</min_parent_version>
+        <max_parent_version>7.0.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+   <version>
+        <branch>7.1.0.0</branch>
+        <version>7.1.0.0-12</version>
+        <name>7.1</name>
+        <package_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda/7.1.0.0-12/cda-7.1.0.0-12.zip
+        </package_url>
+        <samples_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/7.1.0.0-12/cda-samples-7.1.0.0-12.zip
+        </samples_url>
+        <description>7.1 Platform Release</description>
+        <build_id/>
+        <min_parent_version>7.1</min_parent_version>
+        <max_parent_version>7.1.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+   <version>
+        <branch>8.0.0.0</branch>
+        <version>8.0.0.0-28</version>
+        <name>8.0</name>
+        <package_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda/8.0.0.0-28/cda-8.0.0.0-28.zip
+        </package_url>
+        <samples_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/8.0.0.0-28/cda-samples-8.0.0.0-28.zip
+        </samples_url>
+        <description>8.0 Platform Release</description>
+        <build_id/>
+        <min_parent_version>8.0</min_parent_version>
+        <max_parent_version>8.0.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+ <version>
+        <branch>8.1.0.0</branch>
+        <version>8.1.0.0-365</version>
+        <name>8.1</name>
+        <package_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda/8.1.0.0-365/cda-8.1.0.0-365.zip
+        </package_url>
+        <samples_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/8.1.0.0-365/cda-samples-8.1.0.0-365.zip
+        </samples_url>
+        <description>8.1 Platform Release</description>
+        <build_id/>
+        <min_parent_version>8.1</min_parent_version>
+        <max_parent_version>8.1.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+
+      <version>
+        <branch>STABLE</branch>
+        <version>15.10.26</version>
+        <name>Stable</name>
+        <package_url>http://ctools.pentaho.com/files/cda/15.10.26/4.x/cda-15.10.26.zip</package_url>
+        <samples_url>http://ctools.pentaho.com/files/cda/15.10.26/4.x/cda-samples-15.10.26.zip</samples_url>
+        <description>15.10.26 release.</description>
+        <build_id/>
+        <max_parent_version>4.9</max_parent_version>
+        <min_parent_version>1.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>STABLE</branch>
+        <version>14.12.10</version>
+        <name>Stable</name>
+        <package_url>http://ctools.pentaho.com/files/cda/14.12.10/5.x/cda-14.12.10.zip</package_url>
+        <samples_url>http://ctools.pentaho.com/files/cda/14.12.10/5.x/cda-samples-14.12.10.zip</samples_url>
+        <description>14.12.10 release.</description>
+        <build_id/>
+        <min_parent_version>5.0</min_parent_version>
+        <max_parent_version>5.0.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+
+      <version>
+        <branch>STABLE</branch>
+        <version>16.08.18</version>
+        <name>Stable</name>
+        <package_url>http://ctools.pentaho.com/files/cda/16.08.18/5.x/cda-16.08.18.zip</package_url>
+        <samples_url>http://ctools.pentaho.com/files/cda/16.08.18/5.x/cda-samples-16.08.18.zip</samples_url>
+        <description>stable release.</description>
+        <build_id/>
+        <min_parent_version>5.1</min_parent_version>
+        <max_parent_version>5.4.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+
+      <version>
+        <branch>STABLE</branch>
+        <version>6.1-16.08.18</version>
+        <name>Stable</name>
+        <package_url>http://ctools.pentaho.com/files/cda/16.08.18/6.x/cda-6.1-16.08.18.zip</package_url>
+        <samples_url>http://ctools.pentaho.com/files/cda/16.08.18/6.x/cda-samples-6.1-16.08.18.zip</samples_url>
+        <description>Stable release.</description>
+        <build_id/>
+        <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>6.1.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+
+
+      <version>
+        <branch>TRUNK</branch>
+        <version>7.1-SNAPSHOT</version>
+        <name>Trunk</name>
+        <package_url>
+          https://public.nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&amp;g=pentaho&amp;a=cda&amp;v=7.1-SNAPSHOT&amp;p=zip
+        </package_url>
+        <samples_url>
+          https://public.nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&amp;g=pentaho&amp;a=cda-samples&amp;v=7.1-SNAPSHOT&amp;p=zip
+        </samples_url>
+        <description>
+          Build for Pentaho 6/7
+        </description>
+        <build_id>33</build_id>
+        <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>7.0.9</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <screenshots>
+      <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cda/cda-01.png</screenshot>
+      <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cda/cda-02.png</screenshot>
+    </screenshots>
+  </market_entry>
+
+  <market_entry>
+    <id>pentaho-cdf-dd</id>
+    <type>Platform</type>
+    <img>http://www.webdetails.pt/ficheiros/cde.png</img>
+    <small_img>http://www.webdetails.pt/ficheiros/cde_plugin.png</small_img>
+    <name>Community Dashboard Editor</name>
+    <category>
+      <name>Dashboards</name>
+      <parent>
+        <name>Apps</name>
+      </parent>
+    </category>
+    <documentation_url>http://cde.webdetails.org</documentation_url>
+    <description>
+      The Community Dashboard Editor (CDE) is the outcome of real-world
+      needs: It was born to greatly simplify the creation, edition and
+      rendering of dashboards.
+
+      CDE and the technology underneath (CDF, CDA and CCC) allows to
+      develop and deploy dashboards in the Pentaho platform in a fast and
+      effective way.
+    </description>
+    <author>Webdetails</author>
+    <author_url>http://webdetails.pt</author_url>
+    <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
+    <dependencies>CDF, CDA</dependencies>
+    <license>MPL 2.0</license>
+    <versions>
+
+
+
+      <version>
+        <branch>6.0.0.0</branch>
+        <version>6.0.0.0-353</version>
+        <name>6.0</name>
+        <package_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/6.0.0.0-353/pentaho-cdf-dd-6.0.0.0-353.zip
+        </package_url>
+        <samples_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/6.0.0.0-353/pentaho-cdf-dd-solution-6.0.0.0-353.zip
+        </samples_url>
+        <description>6.0 Platform Release</description>
+        <build_id/>
+        <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>6.0.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+
+      <version>
+        <branch>6.1.0.1</branch>
+        <version>6.1.0.1-196</version>
+        <name>6.1</name>
+        <package_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/6.1.0.1-196/pentaho-cdf-dd-6.1.0.1-196.zip
+        </package_url>
+        <samples_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/6.1.0.1-196/pentaho-cdf-dd-solution-6.1.0.1-196.zip
+        </samples_url>
+        <description>6.1 Platform Release</description>
+        <build_id/>
+        <min_parent_version>6.1</min_parent_version>
+        <max_parent_version>6.1.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+
+      <version>
+        <branch>7.0.0.0</branch>
+        <version>7.0.0.0-25</version>
+        <name>7.0</name>
+        <package_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/7.0.0.0-25/pentaho-cdf-dd-7.0.0.0-25.zip
+        </package_url>
+        <samples_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/7.0.0.0-25/pentaho-cdf-dd-solution-7.0.0.0-25.zip
+        </samples_url>
+        <description>7.0 Platform Release</description>
+        <build_id/>
+        <min_parent_version>7.0</min_parent_version>
+        <max_parent_version>7.0.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+    <version>
+        <branch>7.1.0.0</branch>
+        <version>7.1.0.0-12</version>
+        <name>7.1</name>
+        <package_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/7.1.0.0-12/pentaho-cdf-dd-7.1.0.0-12.zip
+        </package_url>
+        <samples_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/7.1.0.0-12/pentaho-cdf-dd-solution-7.1.0.0-12.zip
+        </samples_url>
+        <description>7.1 Platform Release</description>
+        <build_id/>
+        <min_parent_version>7.1</min_parent_version>
+        <max_parent_version>7.1.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+    <version>
+        <branch>8.0.0.0</branch>
+        <version>8.0.0.0-28</version>
+        <name>8.0</name>
+        <package_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/8.0.0.0-28/pentaho-cdf-dd-8.0.0.0-28.zip
+        </package_url>
+        <samples_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/8.0.0.0-28/pentaho-cdf-dd-solution-8.0.0.0-28.zip
+        </samples_url>
+        <description>8.0 Platform Release</description>
+        <build_id/>
+        <min_parent_version>8.0</min_parent_version>
+        <max_parent_version>8.0.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+    <version>
+        <branch>8.1.0.0</branch>
+        <version>8.1.0.0-365</version>
+        <name>8.1</name>
+        <package_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/8.1.0.0-365/pentaho-cdf-dd-8.1.0.0-365.zip
+        </package_url>
+        <samples_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/8.1.0.0-365/pentaho-cdf-dd-solution-8.1.0.0-365.zip
+        </samples_url>
+        <description>8.1 Platform Release</description>
+        <build_id/>
+        <min_parent_version>8.1</min_parent_version>
+        <max_parent_version>8.1.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+
+
+
+      <version>
+        <branch>STABLE</branch>
+        <version>15.10.26</version>
+        <name>Stable</name>
+        <package_url>http://ctools.pentaho.com/files/cde/15.10.26/4.x/pentaho-cdf-dd-15.10.26.zip</package_url>
+        <samples_url>http://ctools.pentaho.com/files/cde/15.10.26/4.x/pentaho-cdf-dd-solution-15.10.26.zip
+        </samples_url>
+        <description>Release 15.10.26</description>
+        <build_id/>
+        <max_parent_version>4.9</max_parent_version>
+        <min_parent_version>1.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+
+      <version>
+        <branch>STABLE</branch>
+        <version>14.12.10.1</version>
+        <name>Stable</name>
+        <package_url>http://ctools.pentaho.com/files/cde/14.12.10.1/5.x/pentaho-cdf-dd-14.12.10.1.zip</package_url>
+        <samples_url>http://ctools.pentaho.com/files/cde/14.12.10.1/5.x/pentaho-cdf-dd-solution-14.12.10.1.zip
+        </samples_url>
+        <description>Release 14.12.10.1</description>
+        <build_id/>
+        <min_parent_version>5.0</min_parent_version>
+        <max_parent_version>5.0.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+
+      <version>
+        <branch>STABLE</branch>
+        <version>16.08.18</version>
+        <name>Stable</name>
+        <package_url>http://ctools.pentaho.com/files/cde/16.08.18/5.x/pentaho-cdf-dd-16.08.18.zip</package_url>
+        <samples_url>http://ctools.pentaho.com/files/cde/16.08.18/5.x/pentaho-cdf-dd-solution-16.08.18.zip
+        </samples_url>
+        <description>Stable Release</description>
+        <build_id/>
+        <min_parent_version>5.1</min_parent_version>
+        <max_parent_version>5.4.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>STABLE</branch>
+        <version>6.1-16.08.18</version>
+        <name>Stable</name>
+        <package_url>http://ctools.pentaho.com/files/cde/16.08.18/6.x/pentaho-cdf-dd-6.1-16.08.18.zip</package_url>
+        <samples_url>http://ctools.pentaho.com/files/cde/16.08.18/6.x/pentaho-cdf-dd-solution-6.1-16.08.18.zip
+        </samples_url>
+        <description>Stable Release</description>
+        <build_id/>
+        <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>6.1.0.9</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+
+      <version>
+        <branch>STABLE_6.1.0.10</branch>
+        <version>6.1-16.08.18.1</version>
+        <name>Stable</name>
+        <package_url>http://ctools.pentaho.com/files/cde/16.08.18.1/6.x/pentaho-cdf-dd-6.1-16.08.18.1.zip</package_url>
+        <samples_url>http://ctools.pentaho.com/files/cde/16.08.18.1/6.x/pentaho-cdf-dd-solution-6.1-16.08.18.1.zip
+        </samples_url>
+        <description>Stable Release</description>
+        <build_id/>
+        <min_parent_version>6.1.0.10</min_parent_version>
+        <max_parent_version>6.1.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+
+
+
+    </versions>
+    <screenshots>
+      <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cde/cde-1.png</screenshot>
+      <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cde/cde-2.png</screenshot>
+      <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cde/cde-3.png</screenshot>
+    </screenshots>
+  </market_entry>
+
+  <market_entry>
+    <id>cgg</id>
+    <type>Platform</type>
+    <img>http://www.webdetails.pt/ficheiros/cgg.png</img>
+    <small_img>http://www.webdetails.pt/ficheiros/cgg_plugin.png</small_img>
+    <name>Community Graphics Generator</name>
+    <category>
+      <name>Dashboards</name>
+      <parent>
+        <name>Apps</name>
+      </parent>
+    </category>
+    <documentation_url>http://ctools.webdetails.org</documentation_url>
+    <description>
+      The CGG (Community Graphics Generator) is a Pentaho Plugin that
+      allows the user to export CCC/CDE charts as images, enabling the
+      inclusion of CDE charts inside Pentaho reports. Quite simply, this
+      plugin is able to render, on server-side, exactly the same chart
+      that is rendered on the browser by CDE/CDF.
+    </description>
+    <author>Webdetails</author>
+    <author_url>http://webdetails.pt</author_url>
+    <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
+    <license>MPL 2.0</license>
+    <installation_notes/>
+    <versions>
+
+
+
+
+
+
+      <version>
+        <branch>6.0.0.0</branch>
+        <version>6.0.0.0-353</version>
+        <name>6.0</name>
+        <package_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cgg/6.0.0.0-353/cgg-6.0.0.0-353.zip
+        </package_url>
+        <description>6.0 Platform Release</description>
+        <build_id/>
+        <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>6.0.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+
+    <version>
+        <branch>6.1.0.1</branch>
+        <version>6.1.0.1-196</version>
+        <name>6.1</name>
+        <package_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cgg/6.1.0.1-196/cgg-6.1.0.1-196.zip
+        </package_url>
+        <description>6.1 Platform Release</description>
+        <build_id/>
+        <min_parent_version>6.1</min_parent_version>
+        <max_parent_version>6.1.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+   <version>
+        <branch>7.0.0.0</branch>
+        <version>7.0.0.0-25</version>
+        <name>7.0</name>
+        <package_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cgg/7.0.0.0-25/cgg-7.0.0.0-25.zip
+        </package_url>
+        <description>7.0 Platform Release</description>
+        <build_id/>
+        <min_parent_version>7.0</min_parent_version>
+        <max_parent_version>7.0.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+  <version>
+        <branch>7.1.0.0</branch>
+        <version>7.1.0.0-12</version>
+        <name>7.1</name>
+        <package_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cgg/7.1.0.0-12/cgg-7.1.0.0-12.zip
+        </package_url>
+        <description>7.1 Platform Release</description>
+        <build_id/>
+        <min_parent_version>7.1</min_parent_version>
+        <max_parent_version>7.1.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+
+	  <version>
+        <branch>8.0.0.0</branch>
+        <version>8.0.0.0-28</version>
+        <name>8.0</name>
+        <package_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cgg/8.0.0.0-28/cgg-8.0.0.0-28.zip
+        </package_url>
+        <description>8.0 Platform Release</description>
+        <build_id/>
+        <min_parent_version>8.0</min_parent_version>
+        <max_parent_version>8.0.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+
+	  <version>
+        <branch>8.1.0.0</branch>
+        <version>8.1.0.0-365</version>
+        <name>8.1</name>
+        <package_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cgg/8.1.0.0-365/cgg-8.1.0.0-365.zip
+        </package_url>
+        <description>8.1 Platform Release</description>
+        <build_id/>
+        <min_parent_version>8.1</min_parent_version>
+        <max_parent_version>8.1.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+
+
+      <version>
+        <branch>STABLE</branch>
+        <version>15.10.26</version>
+        <name>Stable</name>
+        <package_url>http://ctools.pentaho.com/files/cgg/15.10.26/4.x/cgg-15.10.26.zip</package_url>
+        <description>15.10.26 release.</description>
+        <max_parent_version>4.9</max_parent_version>
+        <min_parent_version>1.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+        <build_id/>
+      </version>
+
+      <version>
+        <branch>STABLE</branch>
+        <version>14.12.10</version>
+        <name>Stable</name>
+        <package_url>http://ctools.pentaho.com/files/cgg/14.12.10/5.x/cgg-14.12.10.zip</package_url>
+        <description>14.12.10 release.</description>
+        <min_parent_version>5.0</min_parent_version>
+        <max_parent_version>5.0.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>3</phase>
+        </development_stage>
+        <build_id/>
+      </version>
+
+      <version>
+        <branch>STABLE</branch>
+        <version>16.08.18</version>
+        <name>Stable</name>
+        <package_url>http://ctools.pentaho.com/files/cgg/16.08.18/5.x/cgg-16.08.18.zip</package_url>
+        <description>Stable release.</description>
+        <min_parent_version>5.1</min_parent_version>
+        <max_parent_version>5.4.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>3</phase>
+        </development_stage>
+        <build_id/>
+      </version>
+
+      <version>
+        <branch>STABLE</branch>
+        <version>6.1-16.08.18</version>
+        <name>Stable</name>
+        <package_url>http://ctools.pentaho.com/files/cgg/16.08.18/6.x/cgg-6.1-16.08.18.zip</package_url>
+        <description>Stable release.</description>
+        <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>6.1.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>3</phase>
+        </development_stage>
+        <build_id/>
+      </version>
+
+
+    </versions>
+  </market_entry>
+</market>
